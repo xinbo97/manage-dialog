@@ -1,0 +1,28 @@
+{
+  "name": "manage-dialog",
+  "version": "1.0.0",
+  "description": "A utility function that manages dialog box types",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinbo97/manage-dialog.git"
+  },
+  "keywords": [
+    "modal",
+    "manage"
+  ],
+  "author": "zxb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xinbo97/manage-dialog/issues"
+  },
+  "homepage": "https://github.com/xinbo97/manage-dialog#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
