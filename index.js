@@ -57,7 +57,7 @@ function CreateModal(configs) {
             const { component: DefaultModal, defaultProps, customProps ,defaultConfigs } = this.props;
             return (
                 // defaultProps：用来传默认样式、footer、标题等一些通用配置
-                <DefaultModal {...{ ...customProps,...defaultConfigs,defaultProps }}/>
+                React.createElement(DefaultModal, { ...customProps,...defaultConfigs,defaultProps })
             );
         }
     }
