@@ -76,14 +76,9 @@ function CreateModal(configs) {
             }
         };
         
-        modal = (<CreatedModal
-                component={component}
-                defaultConfigs={defaultConfigs}
-                leaveProp={{ resolve, reject }}
-                customProps={customProps}
-                defaultProps={defaultProps}
-                ref={ref => wrapper = ref}
-                 /> );
+        modal = (
+            React.createElement(CreatedModal, {ref: ref => wrapper = ref,component,defaultConfigs,leaveProp: { resolve, reject },customProps,defaultProps})
+        );
         ReactDOM.render(modal, div);
     };
 
